@@ -2,7 +2,6 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Gif, SearchResponse } from '../interfaces/gifs.interfaces';
 
-const GIPHY_API_KEY = 'v5W7PflROud6yIcj9chRrYpS8JUehNoh';
 
 @Injectable({providedIn: 'root'})
 export class GifsService {

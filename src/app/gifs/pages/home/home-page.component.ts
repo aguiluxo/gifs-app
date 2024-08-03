@@ -8,9 +8,5 @@ import { Gif } from '../../interfaces/gifs.interfaces';
 })
 export class HomePageComponent {
 
-  constructor(private gifsService: GifsService) {}
 
-  get gifs(): Gif[] {
-    return this.gifsService.gifList;
-  }
 }
